@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  font-family: 'Timmy', sans-serif;
+}
+
+
+input::placeholder {
+  /* color: #CA3F2A;  */
+  color: white;
+  font-weight: lighter;
+  text-align: center;
+  font-size: medium;
+}
